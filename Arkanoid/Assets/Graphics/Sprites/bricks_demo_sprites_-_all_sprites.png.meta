@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: 5b41b0a67c7dd9f45a35e57028d4ca8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1866426875282017146
+    second: bricks_demo_sprites_-_all_sprites_0
+  - first:
+      213: 2619680019217911463
+    second: bricks_demo_sprites_-_all_sprites_1
+  - first:
+      213: 6884859130323105465
+    second: bricks_demo_sprites_-_all_sprites_2
+  - first:
+      213: 7276832469068782981
+    second: bricks_demo_sprites_-_all_sprites_3
+  - first:
+      213: 6666169609014572357
+    second: bricks_demo_sprites_-_all_sprites_4
+  - first:
+      213: 6439366035515270457
+    second: bricks_demo_sprites_-_all_sprites_5
+  - first:
+      213: 5201554884714513181
+    second: bricks_demo_sprites_-_all_sprites_6
+  - first:
+      213: -3642892054156971899
+    second: bricks_demo_sprites_-_all_sprites_7
+  - first:
+      213: -1619318964796864548
+    second: bricks_demo_sprites_-_all_sprites_8
+  - first:
+      213: 8682747235482039187
+    second: bricks_demo_sprites_-_all_sprites_9
+  - first:
+      213: -777553097111296091
+    second: bricks_demo_sprites_-_all_sprites_10
+  - first:
+      213: -2980207192483802602
+    second: bricks_demo_sprites_-_all_sprites_11
+  - first:
+      213: -3215298860701559013
+    second: bricks_demo_sprites_-_all_sprites_12
+  - first:
+      213: 7329703075035619505
+    second: bricks_demo_sprites_-_all_sprites_13
+  - first:
+      213: 6627722518013894567
+    second: bricks_demo_sprites_-_all_sprites_14
+  - first:
+      213: 8322741887915584330
+    second: bricks_demo_sprites_-_all_sprites_15
+  - first:
+      213: 9014743880662248940
+    second: bricks_demo_sprites_-_all_sprites_16
+  - first:
+      213: -6778216637012638478
+    second: bricks_demo_sprites_-_all_sprites_17
+  - first:
+      213: -6478781739746647403
+    second: bricks_demo_sprites_-_all_sprites_18
+  - first:
+      213: 7036110827836820864
+    second: bricks_demo_sprites_-_all_sprites_19
+  - first:
+      213: -2768072912104668030
+    second: bricks_demo_sprites_-_all_sprites_20
+  - first:
+      213: 8713854517585036886
+    second: bricks_demo_sprites_-_all_sprites_21
+  - first:
+      213: 906475367628600113
+    second: bricks_demo_sprites_-_all_sprites_22
+  - first:
+      213: -7120770900469866171
+    second: bricks_demo_sprites_-_all_sprites_23
+  - first:
+      213: 4978411696504434452
+    second: bricks_demo_sprites_-_all_sprites_24
+  - first:
+      213: 5587470921761812933
+    second: bricks_demo_sprites_-_all_sprites_25
+  - first:
+      213: 1128314877264451753
+    second: bricks_demo_sprites_-_all_sprites_26
+  - first:
+      213: -2588252973751705233
+    second: bricks_demo_sprites_-_all_sprites_27
+  - first:
+      213: 4135257483464107522
+    second: bricks_demo_sprites_-_all_sprites_28
+  - first:
+      213: 4157854827589415132
+    second: bricks_demo_sprites_-_all_sprites_29
+  - first:
+      213: -7767200240410663313
+    second: bricks_demo_sprites_-_all_sprites_30
+  - first:
+      213: -4808840206568424690
+    second: bricks_demo_sprites_-_all_sprites_31
+  - first:
+      213: -7791683320071575822
+    second: bricks_demo_sprites_-_all_sprites_32
+  - first:
+      213: -9179621486301571767
+    second: bricks_demo_sprites_-_all_sprites_33
+  - first:
+      213: -1246165035662513945
+    second: bricks_demo_sprites_-_all_sprites_34
+  - first:
+      213: 1363474825865423077
+    second: bricks_demo_sprites_-_all_sprites_35
+  - first:
+      213: 7892965553585345328
+    second: bricks_demo_sprites_-_all_sprites_36
+  - first:
+      213: -1284016118754011454
+    second: bricks_demo_sprites_-_all_sprites_37
+  - first:
+      213: 4319419006099317894
+    second: bricks_demo_sprites_-_all_sprites_38
+  - first:
+      213: 3324336770480941446
+    second: bricks_demo_sprites_-_all_sprites_39
+  - first:
+      213: 6321828963579942211
+    second: bricks_demo_sprites_-_all_sprites_40
+  - first:
+      213: -9107585978198999449
+    second: bricks_demo_sprites_-_all_sprites_41
+  - first:
+      213: -4787039959281112491
+    second: bricks_demo_sprites_-_all_sprites_42
+  - first:
+      213: -2734046023570583199
+    second: bricks_demo_sprites_-_all_sprites_43
+  - first:
+      213: 6230121706010524275
+    second: bricks_demo_sprites_-_all_sprites_44
+  - first:
+      213: 7895084900606762747
+    second: bricks_demo_sprites_-_all_sprites_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 184
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b4d64ba51e6e910800000000000000
+      internalID: 1866426875282017146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 178
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae0caa0919fa5420800000000000000
+      internalID: 2619680019217911463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 171
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b67387c6eeeb8f50800000000000000
+      internalID: 6884859130323105465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 171
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d9fd883908cf460800000000000000
+      internalID: 7276832469068782981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 171
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54571d5c0fdf28c50800000000000000
+      internalID: 6666169609014572357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 171
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9356a95ca493d5950800000000000000
+      internalID: 6439366035515270457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 121
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d134b1fcb92af2840800000000000000
+      internalID: 5201554884714513181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 121
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58071e44af8d17dc0800000000000000
+      internalID: -3642892054156971899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 121
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7ca352bf50789e0800000000000000
+      internalID: -1619318964796864548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 141
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39379658b905f7870800000000000000
+      internalID: 8682747235482039187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 146
+        width: 82
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a72dace3939535f0800000000000000
+      internalID: -777553097111296091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 146
+        width: 82
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61250f6295d24a6d0800000000000000
+      internalID: -2980207192483802602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 78
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b175a29b8b6f063d0800000000000000
+      internalID: -3215298860701559013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 78
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b02690cc1658b560800000000000000
+      internalID: 7329703075035619505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 78
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af5314d3866afb50800000000000000
+      internalID: 6627722518013894567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 118
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4be87ab6a1508370800000000000000
+      internalID: 8322741887915584330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 117
+        width: 82
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedeffb1ccdca1d70800000000000000
+      internalID: 9014743880662248940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 95
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f4083491efeee1a0800000000000000
+      internalID: -6778216637012638478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 95
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5922d11755eb616a0800000000000000
+      internalID: -6478781739746647403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 95
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d4e7dd48945a160800000000000000
+      internalID: 7036110827836820864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 84
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284ce913a54d599d0800000000000000
+      internalID: -2768072912104668030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 79
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656c6190484dde870800000000000000
+      internalID: 8713854517585036886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 35
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133f42d4b82749c00800000000000000
+      internalID: 906475367628600113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 35
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5412e8ee790fd2d90800000000000000
+      internalID: -7120770900469866171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 35
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41febcbaf0fd61540800000000000000
+      internalID: 4978411696504434452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 72
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1ff6c133faa8d40800000000000000
+      internalID: 5587470921761812933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 53
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8d22e176498af00800000000000000
+      internalID: 1128314877264451753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 53
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f616eae22ada41cd0800000000000000
+      internalID: -2588252973751705233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 44
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20667ac85c2636930800000000000000
+      internalID: 4135257483464107522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 40
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd03c1abfeaa3b930800000000000000
+      internalID: 4157854827589415132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 40
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f666ef2a88c553490800000000000000
+      internalID: -7767200240410663313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 53
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b7fd97f41934db0800000000000000
+      internalID: -4808840206568424690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 56
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f62cc07d416ed390800000000000000
+      internalID: -7791683320071575822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 47
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9459378d4ee6b9080800000000000000
+      internalID: -9179621486301571767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 39
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8e2d5a08bb4bee0800000000000000
+      internalID: -1246165035662513945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 47
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e865ef41290ce210800000000000000
+      internalID: 1363474825865423077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 47
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03359dd2a52798d60800000000000000
+      internalID: 7892965553585345328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 47
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c69acb94224e2ee0800000000000000
+      internalID: -1284016118754011454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 16
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684ee9663b8a1fb30800000000000000
+      internalID: 4319419006099317894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 15
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689294efdaa622e20800000000000000
+      internalID: 3324336770480941446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 37
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34555f8a2f5abb750800000000000000
+      internalID: 6321828963579942211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ebe109eca5b9180800000000000000
+      internalID: -9107585978198999449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 4
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ae2751584019db0800000000000000
+      internalID: -4787039959281112491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 4
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161918d80a7be0ad0800000000000000
+      internalID: -2734046023570583199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 4
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a353adea6d57650800000000000000
+      internalID: 6230121706010524275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bricks_demo_sprites_-_all_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 5
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe573c13e9f09d60800000000000000
+      internalID: 7895084900606762747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bricks_demo_sprites_-_all_sprites_0: 1866426875282017146
+      bricks_demo_sprites_-_all_sprites_1: 2619680019217911463
+      bricks_demo_sprites_-_all_sprites_10: -777553097111296091
+      bricks_demo_sprites_-_all_sprites_11: -2980207192483802602
+      bricks_demo_sprites_-_all_sprites_12: -3215298860701559013
+      bricks_demo_sprites_-_all_sprites_13: 7329703075035619505
+      bricks_demo_sprites_-_all_sprites_14: 6627722518013894567
+      bricks_demo_sprites_-_all_sprites_15: 8322741887915584330
+      bricks_demo_sprites_-_all_sprites_16: 9014743880662248940
+      bricks_demo_sprites_-_all_sprites_17: -6778216637012638478
+      bricks_demo_sprites_-_all_sprites_18: -6478781739746647403
+      bricks_demo_sprites_-_all_sprites_19: 7036110827836820864
+      bricks_demo_sprites_-_all_sprites_2: 6884859130323105465
+      bricks_demo_sprites_-_all_sprites_20: -2768072912104668030
+      bricks_demo_sprites_-_all_sprites_21: 8713854517585036886
+      bricks_demo_sprites_-_all_sprites_22: 906475367628600113
+      bricks_demo_sprites_-_all_sprites_23: -7120770900469866171
+      bricks_demo_sprites_-_all_sprites_24: 4978411696504434452
+      bricks_demo_sprites_-_all_sprites_25: 5587470921761812933
+      bricks_demo_sprites_-_all_sprites_26: 1128314877264451753
+      bricks_demo_sprites_-_all_sprites_27: -2588252973751705233
+      bricks_demo_sprites_-_all_sprites_28: 4135257483464107522
+      bricks_demo_sprites_-_all_sprites_29: 4157854827589415132
+      bricks_demo_sprites_-_all_sprites_3: 7276832469068782981
+      bricks_demo_sprites_-_all_sprites_30: -7767200240410663313
+      bricks_demo_sprites_-_all_sprites_31: -4808840206568424690
+      bricks_demo_sprites_-_all_sprites_32: -7791683320071575822
+      bricks_demo_sprites_-_all_sprites_33: -9179621486301571767
+      bricks_demo_sprites_-_all_sprites_34: -1246165035662513945
+      bricks_demo_sprites_-_all_sprites_35: 1363474825865423077
+      bricks_demo_sprites_-_all_sprites_36: 7892965553585345328
+      bricks_demo_sprites_-_all_sprites_37: -1284016118754011454
+      bricks_demo_sprites_-_all_sprites_38: 4319419006099317894
+      bricks_demo_sprites_-_all_sprites_39: 3324336770480941446
+      bricks_demo_sprites_-_all_sprites_4: 6666169609014572357
+      bricks_demo_sprites_-_all_sprites_40: 6321828963579942211
+      bricks_demo_sprites_-_all_sprites_41: -9107585978198999449
+      bricks_demo_sprites_-_all_sprites_42: -4787039959281112491
+      bricks_demo_sprites_-_all_sprites_43: -2734046023570583199
+      bricks_demo_sprites_-_all_sprites_44: 6230121706010524275
+      bricks_demo_sprites_-_all_sprites_45: 7895084900606762747
+      bricks_demo_sprites_-_all_sprites_5: 6439366035515270457
+      bricks_demo_sprites_-_all_sprites_6: 5201554884714513181
+      bricks_demo_sprites_-_all_sprites_7: -3642892054156971899
+      bricks_demo_sprites_-_all_sprites_8: -1619318964796864548
+      bricks_demo_sprites_-_all_sprites_9: 8682747235482039187
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
