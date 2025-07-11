@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 91ab39e1512f97b49bfb6f3a5b908dcb
+guid: 8f7ea797759cdfe40896d087a2fd3e70
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2641985633280128818
-    second: BrickBrown_0
+      213: 6842235020741200514
+    second: BrickBrown 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,10 +113,54 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 237f8558fe73aa420800000000000000
-      internalID: 2641985633280128818
+      spriteID: 0dd69c9c0f00abc449e5b99a28ec5a60
+      internalID: -42073498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickBrown_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ef266c8b21e624686de4159b3cbbac
+      internalID: 1432256491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickBrown_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6ba0bf613a73045af53bb6f448ba72
+      internalID: 513925806
       vertices: []
       indices: 
       edges: []
@@ -125,7 +169,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: aa9ee82246ef3ff40bf930e217623e9b
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +179,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BrickBrown_0: 2641985633280128818
+      BrickBrown_0: -42073498
+      BrickBrown_1: 1432256491
+      BrickBrown_2: 513925806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

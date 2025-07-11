@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class BrickController : MonoBehaviour
 {
-    [SerializeField] bool isYellow = false;
-    [SerializeField] Sprite yellowCrackedSprite;
+    [SerializeField] Sprite[] breakingSprites;
     [SerializeField] int health = 1;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private int breakingSpriteIndex;
+
     void Start()
     {
-        
+        // Set to first sprite
+        breakingSpriteIndex = 0;
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -20,9 +20,13 @@ public class BrickController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (isYellow)
+        if (breakingSpriteIndex < breakingSprites.Length - 1)
         {
-            GetComponent<SpriteRenderer>().sprite = yellowCrackedSprite;
+            // Add level
+            breakingSpriteIndex++;
+
+            // Breaking levels
+            GetComponent<SpriteRenderer>().sprite = breakingSprites[breakingSpriteIndex];
         }
 
         health--;

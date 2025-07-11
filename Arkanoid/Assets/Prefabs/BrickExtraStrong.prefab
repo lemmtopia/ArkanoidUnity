@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6250488619696636606}
   - component: {fileID: 3029544977077844472}
   m_Layer: 0
-  m_Name: BrickStrong
+  m_Name: BrickExtraStrong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 1600529283
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3587800555031157248, guid: 0c4685a98dbe80e4c9f012637ca5099f, type: 3}
+  m_Sprite: {fileID: -42073498, guid: 8f7ea797759cdfe40896d087a2fd3e70, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -148,6 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   breakingSprites:
-  - {fileID: -3587800555031157248, guid: 0c4685a98dbe80e4c9f012637ca5099f, type: 3}
-  - {fileID: -1097816613, guid: 0c4685a98dbe80e4c9f012637ca5099f, type: 3}
-  health: 2
+  - {fileID: -42073498, guid: 8f7ea797759cdfe40896d087a2fd3e70, type: 3}
+  - {fileID: 1432256491, guid: 8f7ea797759cdfe40896d087a2fd3e70, type: 3}
+  - {fileID: 513925806, guid: 8f7ea797759cdfe40896d087a2fd3e70, type: 3}
+  health: 3

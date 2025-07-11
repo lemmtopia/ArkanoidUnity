@@ -147,3 +147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cac517e0082de147a9d75b3e0f43e9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  breakingSprites:
+  - {fileID: 21300000, guid: ddd030ceb333eb44792969352b8db902, type: 3}
+  health: 1
