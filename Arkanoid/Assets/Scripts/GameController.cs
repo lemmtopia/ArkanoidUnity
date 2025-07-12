@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
@@ -6,6 +7,8 @@ public class GameController : MonoBehaviour
     // Access this script via GameController.Instance
     // Anyone can read from it, but only it can modify itself.
     public static GameController Instance { get; private set; }
+
+    [SerializeField] private Text scoreText;
 
     // Lives and score
     public int livesMax = 9;
@@ -36,7 +39,7 @@ public class GameController : MonoBehaviour
 
     public void ResetBricks()
     {
-
+        gameObject.SetActive(false);
     }
 
     public void ResetGame()
@@ -45,5 +48,25 @@ public class GameController : MonoBehaviour
         lives = livesStart;
         scoreToNextLifeRemaining = 0;
         score = 0;
+    }
+
+    // SetScore(int score): Sets score and updates the score text
+    public void SetScore(int score)
+    {
+        this.score = score;
+
+        scoreText.text = this.score.ToString();
+    }
+
+    // GetScore(): Gets score
+    public int GetScore()
+    {
+        return score;
+    }
+
+    // AddScore(int score): Adds to score and updates the score text
+    public void AddScore(int scoreAdd)
+    {
+        SetScore(score + scoreAdd);
     }
 }

@@ -4,6 +4,7 @@ public class BrickController : MonoBehaviour
 {
     [SerializeField] Sprite[] breakingSprites;
     [SerializeField] int health = 1;
+    [SerializeField] int points = 50;
 
     private int breakingSpriteIndex;
 
@@ -32,6 +33,9 @@ public class BrickController : MonoBehaviour
         health--;
         if (health <= 0)
         {
+            // Add to GameController score
+            GameController.Instance.AddScore(points);
+
             // Deactivate myself, not destroy
             gameObject.SetActive(false);
         } 
