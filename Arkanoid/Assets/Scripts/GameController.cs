@@ -11,6 +11,8 @@ public class GameController : MonoBehaviour
     [SerializeField] private Text scoreText;
     [SerializeField] private Text livesText;
 
+    [SerializeField] private AudioClip lifeAddClip;
+
     // Lives and score
     public int livesStart = 3;
     public int lives = 0;
@@ -40,10 +42,7 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            ResetGame();
-        }
+
     }
 
     public void ResetBricks()
@@ -62,9 +61,9 @@ public class GameController : MonoBehaviour
     public void ResetGame()
     {
         // Reset lives and score
-        lives = livesStart;
+        SetLives(livesStart);
+        SetScore(0);
         scoreToNextLifeRemaining = 0;
-        score = 0;
 
         // Reset bricks
         ResetBricks();
@@ -88,6 +87,20 @@ public class GameController : MonoBehaviour
     public void AddScore(int scoreAdd)
     {
         SetScore(score + scoreAdd);
+
+        // add to remaining score to next life
+        scoreToNextLifeRemaining += scoreAdd;
+
+        if (scoreToNextLifeRemaining >= scoreToNextLifeTarget)
+        {
+            // Play life add sound
+            GetComponent<AudioSource>().clip = lifeAddClip;
+            GetComponent<AudioSource>().Play();
+
+            // Add a new life and reset remaining score
+            AddLives(1);
+            scoreToNextLifeRemaining = 0;
+        }
     }
 
     // SetLives(int lives): Sets score and updates the lives text
@@ -108,15 +121,16 @@ public class GameController : MonoBehaviour
     public void AddLives(int livesAdd)
     {
         SetLives(lives + livesAdd);
+    }
 
-        // add to remaining score to next life
-        scoreToNextLifeRemaining += livesAdd;
-
-        if (scoreToNextLifeRemaining >= scoreToNextLifeTarget)
+    // RemoveLives(int lives): Removes to lives, updates the lives text and checks for reset
+    public void RemoveLives(int livesRemove)
+    {
+        SetLives(lives - livesRemove);
+        
+        if (lives <= 0)
         {
-            // Add a new life and reset remaining score
-            AddLives(1);
-            scoreToNextLifeRemaining = 0;
+            ResetGame();
         }
     }
 }

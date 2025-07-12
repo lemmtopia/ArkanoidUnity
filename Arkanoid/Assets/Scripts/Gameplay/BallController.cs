@@ -47,8 +47,11 @@ public class BallController : MonoBehaviour
             isMoving = true;
         }
 
-        if (transform.position.y <= -yBorder)
+        if (transform.position.y <= -yBorder || Input.GetKeyDown(KeyCode.R))
         {
+            // Remove a life
+            GameController.Instance.RemoveLives(1);
+
             // Reset
             transform.position = startPosition;
             rb.position = new Vector2(startPosition.x, startPosition.y);
@@ -56,5 +59,11 @@ public class BallController : MonoBehaviour
             startDelay = startDelayMax;
             isMoving = false;
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Play boing sound
+        GetComponent<AudioSource>().Play();
     }
 }
