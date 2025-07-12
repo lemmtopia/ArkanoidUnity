@@ -9,9 +9,9 @@ public class GameController : MonoBehaviour
     public static GameController Instance { get; private set; }
 
     [SerializeField] private Text scoreText;
+    [SerializeField] private Text livesText;
 
     // Lives and score
-    public int livesMax = 9;
     public int livesStart = 3;
     public int lives = 0;
 
@@ -32,20 +32,29 @@ public class GameController : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        SetLives(livesStart);
+        SetScore(0);
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            ResetBricks();
+            ResetGame();
         }
     }
 
     public void ResetBricks()
     {
+        // Get all BrickControllers in all bricks (including inactive ones)
         BrickController[] bricks = GameObject.FindObjectsByType<BrickController>(FindObjectsInactive.Include, FindObjectsSortMode.None);
 
+        // Loop
         foreach (BrickController brick in bricks)
         {
+            // Respawn brick
             brick.Respawn();
         }
     }
@@ -56,6 +65,9 @@ public class GameController : MonoBehaviour
         lives = livesStart;
         scoreToNextLifeRemaining = 0;
         score = 0;
+
+        // Reset bricks
+        ResetBricks();
     }
 
     // SetScore(int score): Sets score and updates the score text
@@ -76,5 +88,35 @@ public class GameController : MonoBehaviour
     public void AddScore(int scoreAdd)
     {
         SetScore(score + scoreAdd);
+    }
+
+    // SetLives(int lives): Sets score and updates the lives text
+    public void SetLives(int lives)
+    {
+        this.lives = lives;
+
+        livesText.text = this.lives.ToString();
+    }
+
+    // Getlives(): Gets lives
+    public int GetLives()
+    {
+        return lives;
+    }
+
+    // AddLives(int lives): Adds to lives and updates the lives text
+    public void AddLives(int livesAdd)
+    {
+        SetLives(lives + livesAdd);
+
+        // add to remaining score to next life
+        scoreToNextLifeRemaining += livesAdd;
+
+        if (scoreToNextLifeRemaining >= scoreToNextLifeTarget)
+        {
+            // Add a new life and reset remaining score
+            AddLives(1);
+            scoreToNextLifeRemaining = 0;
+        }
     }
 }
