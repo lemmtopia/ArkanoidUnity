@@ -34,12 +34,20 @@ public class GameController : MonoBehaviour
 
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            ResetBricks();
+        }
     }
 
     public void ResetBricks()
     {
-        gameObject.SetActive(false);
+        BrickController[] bricks = GameObject.FindObjectsByType<BrickController>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+        foreach (BrickController brick in bricks)
+        {
+            brick.Respawn();
+        }
     }
 
     public void ResetGame()

@@ -7,16 +7,31 @@ public class BrickController : MonoBehaviour
     [SerializeField] int points = 50;
 
     private int breakingSpriteIndex;
+    private int healthStart = 0;
 
     void Start()
     {
         // Set to first sprite
         breakingSpriteIndex = 0;
+        healthStart = health;
     }
 
     void Update()
     {
         
+    }
+
+    public void Respawn()
+    {
+        // reset healht
+        health = healthStart;
+        
+        // reset sprite
+        breakingSpriteIndex = 0;
+        GetComponent<SpriteRenderer>().sprite = breakingSprites[breakingSpriteIndex];
+
+        // reactivate game object
+        gameObject.SetActive(true);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

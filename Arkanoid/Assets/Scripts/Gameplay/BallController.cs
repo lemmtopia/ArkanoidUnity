@@ -47,7 +47,7 @@ public class BallController : MonoBehaviour
             isMoving = true;
         }
 
-        if (transform.position.y <= -yBorder || Input.GetKeyDown(KeyCode.R))
+        if (transform.position.y <= -yBorder)
         {
             // Reset
             transform.position = startPosition;
@@ -55,8 +55,6 @@ public class BallController : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
             startDelay = startDelayMax;
             isMoving = false;
-
-            Debug.Log(startDelay);
         }
     }
 }
