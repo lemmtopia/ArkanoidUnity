@@ -32,8 +32,8 @@ public class BrickController : MonoBehaviour
         health--;
         if (health <= 0)
         {
-            // Destroy myself
-            Destroy(this.gameObject);
+            // Deactivate myself, not destroy
+            gameObject.SetActive(false);
         } 
     }
 }
